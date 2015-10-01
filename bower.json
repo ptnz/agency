@@ -17,6 +17,7 @@
     "bootstrap": "~3.3.5",
     "font-awesome": "~4.4.0",
     "jquery": "~2.1.4",
+    "lightbox2": "lightbox#~2.8.1",
     "modernizr": "~2.8.3"
   },
   "dependencies": {

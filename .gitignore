@@ -156,7 +156,7 @@ node_modules/
 
 # custom bower directory
 lib/*
-!lib/lightbox2/dist/
+!lib/lightbox2/
 
 
 #Photoshop ext
