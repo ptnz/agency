@@ -8,7 +8,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import "../../lib/lightbox2/dist/css/lightbox.css";
+@import "../lib/lightbox2/dist/css/lightbox.css";
 
 html {
   font-family: sans-serif;
@@ -11051,7 +11051,7 @@ body {
   text-transform: uppercase;
   padding: 0;
   margin-bottom: 15px;
-  background: url(../../img/images/btn-brackets.png) 0 0 no-repeat;
+  background: url(../img/images/btn-brackets.png) 0 0 no-repeat;
   background-size: 100% 100%;
   border: 1px solid transparent;
   border-radius: 0;
@@ -11076,7 +11076,7 @@ body {
 }
 
 .btn__slider_big {
-  background: url(../../img/images/btn-corners.png) 0 0 no-repeat;
+  background: url(../img/images/btn-corners.png) 0 0 no-repeat;
   background-size: 100%;
   font-size: 20px;
   font-weight: 400;
@@ -11167,7 +11167,7 @@ body {
 /* //Our workflow */
 /* About Us */
 .about-us {
-  background: url(../../img/images/about-us-bg.png) 0 0 repeat;
+  background: url(../img/images/about-us-bg.png) 0 0 repeat;
   margin-bottom: 20px;
 }
 
@@ -11414,17 +11414,17 @@ body {
 }
 
 .team-member__img_seo {
-  background: url(../../img/images/worker-1.png) -45px 0 no-repeat;
+  background: url(../img/images/worker-1.png) -45px 0 no-repeat;
   background-size: 145%;
 }
 
 .team-member__img_boss {
-  background: url(../../img/images/worker-2.png) -25px 0 no-repeat;
+  background: url(../img/images/worker-2.png) -25px 0 no-repeat;
   background-size: cover;
 }
 
 .team-member__img_security {
-  background: url(../../img/images/worker-3.png) -55px 0 no-repeat;
+  background: url(../img/images/worker-3.png) -55px 0 no-repeat;
   background-size: cover;
 }
 
@@ -11477,7 +11477,7 @@ body {
 }
 
 .team-member__inner:hover .team-member__bg {
-  background: url(../../img/images/about-us-bg.png) 0 0 no-repeat;
+  background: url(../img/images/about-us-bg.png) 0 0 no-repeat;
   opacity: 1;
 }
 
@@ -11493,7 +11493,7 @@ body {
 /* /Team members */
 /* Contact us */
 .contact-us {
-  background: url(../../img/images/contact-us-bg.png) 0 0 no-repeat;
+  background: url(../img/images/contact-us-bg.png) 0 0 no-repeat;
   background-size: cover;
   color: #fff;
 }
@@ -11589,43 +11589,43 @@ body {
 }
 
 .contact-data__social-item_fb {
-  background: url(../../img/sprites/png/contact-social-links.png) 0 0 no-repeat;
+  background: url(../img/sprites/png/contact-social-links.png) 0 0 no-repeat;
 }
 
 .contact-data__social-item_fb:hover {
-  background: url(../../img/sprites/png/contact-social-links.png) -42px 0 no-repeat;
+  background: url(../img/sprites/png/contact-social-links.png) -42px 0 no-repeat;
 }
 
 .contact-data__social-item_g-plus {
-  background: url(../../img/sprites/png/contact-social-links.png) -84px 0 no-repeat;
+  background: url(../img/sprites/png/contact-social-links.png) -84px 0 no-repeat;
 }
 
 .contact-data__social-item_g-plus:hover {
-  background: url(../../img/sprites/png/contact-social-links.png) -126px 0 no-repeat;
+  background: url(../img/sprites/png/contact-social-links.png) -126px 0 no-repeat;
 }
 
 .contact-data__social-item_twitter {
-  background: url(../../img/sprites/png/contact-social-links.png) -168px 0 no-repeat;
+  background: url(../img/sprites/png/contact-social-links.png) -168px 0 no-repeat;
 }
 
 .contact-data__social-item_twitter:hover {
-  background: url(../../img/sprites/png/contact-social-links.png) -210px 0 no-repeat;
+  background: url(../img/sprites/png/contact-social-links.png) -210px 0 no-repeat;
 }
 
 .contact-data__social-item_instagramm {
-  background: url(../../img/sprites/png/contact-social-links.png) -252px 0 no-repeat;
+  background: url(../img/sprites/png/contact-social-links.png) -252px 0 no-repeat;
 }
 
 .contact-data__social-item_instagramm:hover {
-  background: url(../../img/sprites/png/contact-social-links.png) -294px 0 no-repeat;
+  background: url(../img/sprites/png/contact-social-links.png) -294px 0 no-repeat;
 }
 
 .contact-data__social-item_x {
-  background: url(../../img/sprites/png/contact-social-links.png) -336px 0 no-repeat;
+  background: url(../img/sprites/png/contact-social-links.png) -336px 0 no-repeat;
 }
 
 .contact-data__social-item_x:hover {
-  background: url(../../img/sprites/png/contact-social-links.png) -378px 0 no-repeat;
+  background: url(../img/sprites/png/contact-social-links.png) -378px 0 no-repeat;
 }
 /* /Contact us */
 /* Footer */
