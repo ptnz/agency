@@ -1,0 +1,25 @@
+{
+  "name": "empty-template",
+  "version": "0.0.0",
+  "authors": [
+    "Evgeniy <regzps@ya.ru>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./lib",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "jquery": "~2.1.4",
+    "modernizr": "~2.8.3"
+  },
+  "dependencies": {
+    "isotope": "~2.2.2"
+  }
+}

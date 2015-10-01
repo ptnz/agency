@@ -1,0 +1,71 @@
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+@gray-base:              #000;
+@gray-darker:            lighten(@gray-base, 13.5%); // #222
+@gray-dark:              lighten(@gray-base, 20%);   // #333
+@gray:                   lighten(@gray-base, 33.5%); // #555
+@gray-light:             lighten(@gray-base, 46.7%); // #777
+@gray-lighter:           lighten(@gray-base, 93.5%); // #eee
+
+
+/* Colors */
+@brand-primary: rgb(244, 187, 54);
+@brand-primary-transparent-05: lighten(@brand-primary, 10%);
+
+@distance: 60;
+@invert-distance: @distance * -1;
+
+@brand-success: spin(@brand-primary, @distance);
+@brand-info: spin(@brand-primary, @invert-distance * 3.5);
+@brand-warning: spin(@brand-primary, @invert-distance * 1.5);
+@brand-danger: spin(@brand-primary, @invert-distance);
+
+
+/* Typography-custom*/
+@font-family-sans-serif:  "Open Sans", Helvetica, Arial, sans-serif;
+
+
+@font-size-base:          14px;
+
+
+@font-size-greatest:      floor((@font-size-base * 1.45)); // ~20px
+@font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
+@font-size-big:           ceil((@font-size-base * 1.1)); // ~15px
+@font-size-small:         floor((@font-size-base * 0.9)); // ~13px
+@font-size-least:         ceil((@font-size-base * 0.85)); // ~12px
+
+/* Header */
+@font-size-logo:          ceil((@font-size-base * 2.55)); //~40px
+@font-size-menu:          ceil((@font-size-base * .9)); //~13px
+
+/* Slider */
+@font-size-slider-title:  floor((@font-size-base * 4.5)); //~65px
+@font-size-slider-text:   ceil((@font-size-base * 1.1)); //~15px
+
+/* Btn */
+@font-size-btn:           ceil((@font-size-base * 1.25)); //~18px
+@font-size-btn-big:       ceil((@font-size-base * 1.4)); //~20px
+
+/* About us */
+@font-size-subtitle:          floor((@font-size-base * 2.85)); //~40px
+
+
+
+
+@media (max-width: 700px) {
+	.navbar-header {
+		min-width: 280px;
+	}
+}
+
+@media (max-width: 700px) {
+	.navbar-header {
+		min-width: 280px;
+	}
+}
+
+
+
+@hide-menu-width:            835px;
